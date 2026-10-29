@@ -1,0 +1,30 @@
+{
+  "funnel": {
+    "desktop": {
+      "users": 3548,
+      "views": 3048,
+      "contacts": 821,
+      "view_to_contact_pct": 26.9357
+    },
+    "mobile": {
+      "users": 8452,
+      "views": 6822,
+      "contacts": 1302,
+      "view_to_contact_pct": 19.0853
+    }
+  },
+  "ab": {
+    "n_per_group": 8000,
+    "control_contacts": 993,
+    "test_contacts": 1058,
+    "control_pct": 12.4125,
+    "test_pct": 13.225000000000001,
+    "difference_pp": 0.8125000000000007,
+    "relative_lift_pct": 6.545820745216524,
+    "p_value": 0.12425421447000731,
+    "ci95_pp": [
+      -0.22342518110322446,
+      1.848425181103226
+    ]
+  }
+}
